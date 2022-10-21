@@ -1,0 +1,439 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+#webtitle a.one:link, a.one:visited {
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  padding: 14px 2253px 14px 9px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 80px;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Header/Blog Title */
+.header {
+  padding: 220px;
+  border-style: solid;
+  text-align: center;
+  background: white;
+}
+
+/* Other header */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Big profile picture */
+.bigprofileimg{
+  position: absolute;
+  top: 195px;
+  left: 20px;
+  right: 50px;
+} 
+
+/* Avatar */
+.profileimg{
+  position: absolute;
+  top: 600px;
+  left: 1125px;
+  right: 50px;
+} 
+
+/* Blog title under avatar */
+.blogtitle {
+  padding-top: 140px;
+  text-align: center;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 25px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 60%;
+  padding-right: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 40%;
+  background-color: #f1f1f1;
+  padding-left: 60px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Article on top left */
+#firstarticle {
+  font-size: 21px;
+  display: flex;
+  margin-left: 6%;
+  align-items: flex-start;
+  transform: translate(-100px); 
+}
+
+/* Article on bottom left */
+#secondarticle {
+  font-size: 21px;
+  display: flex;
+  margin-left: 7%;
+  align-items: flex-start;
+  transform: translate(-100px); 
+}
+
+/* Image for article on top left */
+#firstarticleimg {
+  margin-right: 100px;
+}
+
+/* Image for article on bottom left */
+#secondarticleimg {
+  margin-right: 100px;  
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 70px;
+  border: 1px solid;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* For layout on the right */
+.piccolumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.picrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Links on top of the pictures */
+.atitle a:link, a:visited {
+  border-radius: 25px;
+  background-color: rgba(204, 204, 204, 0.7);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Links on top of the pictures */
+.atitle a:hover {
+  background-color: rgba(204, 204, 204, 1.0);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* For social media buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998 !important;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE !important;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688 !important;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00 !important;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0 !important;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639 !important;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89 !important;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff !important;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762 !important;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489 !important;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff !important;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924 !important;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083 !important;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297 !important;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700 !important;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600 !important;
+  color: white;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Footer container */
+.footer{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: white;
+}
+
+/* Footer content */
+.footer .content{
+  max-width: 1350px;
+  margin-right: 80px;
+  margin-left: 500px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+/* Content paragraphs and links */
+.footer .content p.one,a.two{
+  color: black;
+}
+
+/* Content box cust */
+.footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+
+/* Content topic */
+.footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 16px;
+}
+
+/* Content paragraphs */
+.footer .content p{
+  text-align: justify;
+}
+
+/* Lower topic */
+.footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+
+/* Lower topic */
+.footer .content .lower i{
+  padding-right: 16px;
+}
+
+/* Middle topic */
+footer .content .middle{
+  padding-left: 80px;
+  margin-left: 80px;
+}
+
+/* Middle topic links */
+footer .content .middle a{
+  line-height: 32px;
+}
+
+/* Text for email field */
+.footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+
+/* Submit for email field */
+.footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: black;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Cust for email field */
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  black;
+}
+
+/* Bottom of the footer */
+.footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: black;
+  padding: 0 40px 5px 0;
+}
+
+/* Bottom link of the footer */
+.footer .bottom a{
+  color: #eb2f06;
+}
+
+/* Footer links general */
+.footer a{
+  transition: all 0.3s ease;
+}
+
+/* Footer links general */
+.footer a:hover{
+  color: #eb2f06;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+
